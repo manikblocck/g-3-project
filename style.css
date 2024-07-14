@@ -29,6 +29,12 @@
 
 .navbar{
     justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
 }
 .nav-item{
     list-style: none;
@@ -39,7 +45,31 @@
     text-decoration: none;
     font-weight: 500;
 }
-.navbar, .banner_{
+.navbar, .banner{
     max-width:1440px ;
     margin: 0 auto;
+}
+.banner-contant{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.banner-tittle{
+   font-weight:700;
+   font-size: 4rem;
+}
+.btn-primary{
+    background: #ff900e;
+    color: white;
+    padding: 20px 25px;
+    font-size:1.25rem ;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.banner-image{
+    width: 100%;
 }
