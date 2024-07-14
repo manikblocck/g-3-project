@@ -160,6 +160,26 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* feature secation style */
+#feacher-sec-tittle{
+   border-left:5px solid #ff900e; 
+   padding-left: 20px;
+}
+.feature-card .feature-tittle{
+    font-weight: 600px;
+    font-size: 1.25rem;
+    margin: 0;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.feacher{
+    gap: 140px;
+}
+
 /* responsive for mobile */
 @media screen and (max-width:576px) {
     .navbar, 
