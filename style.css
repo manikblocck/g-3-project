@@ -179,6 +179,20 @@ main > section{
 .feacher{
     gap: 140px;
 }
+.fitcherd-architect img{
+    width: 100%;
+}
+#experince-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: -80px;
+    margin-left: -80px;
+}
+#experince-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
 
 /* responsive for mobile */
 @media screen and (max-width:576px) {
@@ -192,13 +206,21 @@ main > section{
     .sponsore-companys{
         grid-template-columns: repeat(1, 1fr);
     }
-    .fact-container, .sponsore-companys{
+    .fact-container,
+     .sponsore-companys{
         justify-items: center;
         gap: 24px;
     }
     .our-fetaure{
         margin-left: 20px;
     }
+    #experince-badge{
+       margin: 0 auto;
+    }
+    .feacher{
+        flex-direction: column;
+    }
+
 
 }
 
@@ -216,4 +238,12 @@ main > section{
     .our-fetaure{
         margin: 50px auto;
     }
+    .feacher{
+        flex-direction: column;
+    }
+    #experince-badge{
+      margin-left: 260px;
+      margin-top: 20px;
+    }
+
 }
