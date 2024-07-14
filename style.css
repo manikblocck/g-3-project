@@ -7,3 +7,39 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Dark-2 */
+.text-gray{
+    color:#424242 ;
+}
+
+/* Dark-3 */
+.text-light-gray{
+    color: #727272;
+}
+
+/* navbar shared styls */
+.display-flex{
+    display: flex;
+}
+
+.bg-light{
+    background:rgba(225,144,14,0.1);
+}
+
+.navbar{
+    justify-content: space-between;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.navbar, .banner_{
+    max-width:1440px ;
+    margin: 0 auto;
+}
